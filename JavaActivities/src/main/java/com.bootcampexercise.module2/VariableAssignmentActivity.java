@@ -1,4 +1,4 @@
-package com.bootcampexercise.module1;/* HelloWorld.java
+package com.bootcampexercise.module2;/* HelloWorld.java
  */
 
 public class VariableAssignmentActivity
