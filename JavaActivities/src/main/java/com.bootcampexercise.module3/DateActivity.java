@@ -1,4 +1,4 @@
-package sef.module4.activity;
+package com.bootcampexercise.module3;
 
 import java.util.Date;
 
