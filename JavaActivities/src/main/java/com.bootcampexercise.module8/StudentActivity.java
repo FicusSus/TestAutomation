@@ -30,7 +30,7 @@ public class StudentActivity {
     }
 
     // Add student (prevent duplicate ID)
-    static void addStudent(ArrayList<Student> list, Student s) {
+    public static void addStudent(ArrayList<Student> list, Student s) {
         for (Student st : list) {
             if (st.getId() == s.getId()) {
                 System.out.println("Duplicate ID found. Student not added: " + s.getId());
@@ -48,7 +48,7 @@ public class StudentActivity {
     }
 
     // Find highest grade student
-    static Student findHighest(ArrayList<Student> list) {
+    public static Student findHighest(ArrayList<Student> list) {
         Student highest = list.getFirst();
         for (Student s : list) {
             if (s.getGrade() > highest.getGrade()) {
